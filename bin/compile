@@ -67,7 +67,7 @@ mkdir -p $CACHE_DIR
 title "Generating environment"
 if [ ! -f $CACHE_DIR/vendor.tar.xz ]; then
 	subtitle "Fetching..."
-	curl -s -L "http://chunk.io/f/5977ec55864f414f8fb9ad6d09ad55b4" > $CACHE_DIR/vendor.tar.xz
+	curl -s -L "http://chunk.io/f/1258a029ba374aa590a819154e0000a3" > $CACHE_DIR/vendor.tar.xz
 fi
 subtitle "Unpacking..."
 tar -xvf $CACHE_DIR/vendor.tar.xz -C $BUILD_DIR
